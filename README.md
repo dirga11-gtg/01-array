@@ -1,11 +1,13 @@
 # 1. PENJELASAN ARRAY DAN SCRENSHOOT HASIL EKSEKUSI
-<img width="195" height="66" alt="image" src="https://github.com/user-attachments/assets/334f57ca-ad53-4bbf-a007-367c6bff9db3" />
+<img width="329" height="103" alt="image" src="https://github.com/user-attachments/assets/a06ad01a-3cf9-406d-8c83-c983689e6d78" />
 
 1. list = [] di Python berarti membuat sebuah list kosong.
-List di Python sering dianggap seperti array di bahasa pemrograman lain.
-2. list → nama variabel yang digunakan untuk menyimpan data.
-[] → tanda kurung siku yang menandakan list/array.
-3. Karena tidak ada isi di dalamnya, maka list tersebut kosong.
+- List di Python sering dianggap seperti array di bahasa pemrograman lain.
+2. nilai_mahasiswa → nama array/list
+3. [] → array kosong (belum ada data)
+4. list → nama variabel yang digunakan untuk menyimpan data.
+5. [] → tanda kurung siku yang menandakan list/array.
+6. Karena tidak ada isi di dalamnya, maka list tersebut kosong.
 
 <img width="626" height="413" alt="image" src="https://github.com/user-attachments/assets/3b9b3aa4-9bd7-46e5-a842-7fa497feea8e" />
 
@@ -16,29 +18,31 @@ List di Python sering dianggap seperti array di bahasa pemrograman lain.
 <img width="515" height="266" alt="image" src="https://github.com/user-attachments/assets/81529a72-931b-4c9e-9d68-19e2976521e7" />
 
 1. print("List:", nilai_mahasiswa)
-Menampilkan semua isi array nilai_mahasiswa.
-Jadi akan terlihat kumpulan nilai mahasiswa yang sudah dimasukkan.
+- Menampilkan semua isi array nilai_mahasiswa.
+- Jadi akan terlihat kumpulan nilai mahasiswa yang sudah dimasukkan.
 
 2. print("Nilai tertinggi:", max(nilai_mahasiswa))
-max() digunakan untuk mencari nilai paling besar yang ada di dalam array nilai_mahasiswa.
+- max() digunakan untuk mencari nilai paling besar yang ada di dalam array nilai_mahasiswa.
 
 3. print("Nilai terendah:", min(nilai_mahasiswa))
-min() digunakan untuk mencari nilai paling kecil yang ada di dalam array nilai_mahasiswa.
+- min() digunakan untuk mencari nilai paling kecil yang ada di dalam array nilai_mahasiswa.
+
 <img width="684" height="156" alt="image" src="https://github.com/user-attachments/assets/7bcad36a-18a1-46d6-9a70-6390266b0cf2" />
 
 1. print("Rata-rata:", sum(nilai_mahasiswa) / len(nilai_mahasiswa))
 2. sum(nilai_mahasiswa)
-Digunakan untuk menjumlahkan semua nilai yang ada di dalam array nilai_mahasiswa.
+- Digunakan untuk menjumlahkan semua nilai yang ada di dalam array nilai_mahasiswa.
 3. len(nilai_mahasiswa)
-Digunakan untuk menghitung jumlah data yang ada di dalam array nilai_mahasiswa.
+- Digunakan untuk menghitung jumlah data yang ada di dalam array nilai_mahasiswa.
 4. sum(nilai_mahasiswa) / len(nilai_mahasiswa)
-Total nilai dibagi jumlah data untuk mendapatkan rata-rata.
+- Total nilai dibagi jumlah data untuk mendapatkan rata-rata.
 
 <img width="479" height="434" alt="image" src="https://github.com/user-attachments/assets/1d567090-8653-498d-b36b-c7913edfd1ad" />
 
 1. Array yang digunakan pada program ini adalah nilai_mahasiswa, yaitu tempat untuk menyimpan kumpulan nilai mahasiswa.
 2. Program pertama membuat dua variabel yaitu lulus dan tidak_lulus yang digunakan untuk menghitung jumlah mahasiswa yang lulus dan tidak lulus.
-3. Kemudian program melakukan perulangan pada array nilai_mahasiswa. Artinya program akan mengambil setiap nilai yang ada di dalam array tersebut satu per satu.
+3. Kemudian program melakukan perulangan pada array nilai_mahasiswa.
+- Artinya program akan mengambil setiap nilai yang ada di dalam array tersebut satu per satu.
 4. Jika nilai mahasiswa lebih dari atau sama dengan 60, maka mahasiswa dianggap lulus, sehingga jumlah lulus akan bertambah satu.
 5. Jika nilai mahasiswa kurang dari 60, maka mahasiswa dianggap tidak lulus, sehingga jumlah tidak_lulus akan bertambah satu.
 6. Setelah semua nilai di dalam array diperiksa, program akan menampilkan jumlah mahasiswa yang lulus dan jumlah mahasiswa yang tidak lulus berdasarkan data yang ada di dalam array nilai_mahasiswa.
@@ -46,9 +50,10 @@ Total nilai dibagi jumlah data untuk mendapatkan rata-rata.
 
 1. Pada program ini array (list) digunakan untuk menyimpan data yang akan ditampilkan dalam grafik.
 2. Array pertama adalah kategori. Array ini berisi teks “Lulus” dan “Tidak Lulus” yang digunakan sebagai nama kategori pada grafik.
-3. Array kedua adalah data. Array ini berisi dua nilai yaitu jumlah mahasiswa yang lulus dan jumlah mahasiswa yang tidak lulus. Nilai ini diambil dari variabel lulus dan tidak_lulus yang sudah dihitung sebelumnya.
+3. Array kedua adalah data. Array ini berisi dua nilai yaitu jumlah mahasiswa yang lulus dan jumlah mahasiswa yang tidak lulus.
+- Nilai ini diambil dari variabel lulus dan tidak_lulus yang sudah dihitung sebelumnya.
 4. Program kemudian membuat grafik batang (bar chart).
-Array kategori digunakan sebagai label pada sumbu bawah (x), sedangkan array data digunakan sebagai tinggi batang grafik yang menunjukkan jumlah mahasiswa.
+- Array kategori digunakan sebagai label pada sumbu bawah (x), sedangkan array data digunakan sebagai tinggi batang grafik yang menunjukkan jumlah mahasiswa.
 5. Setelah itu program memberi judul grafik “Grafik Data Kelulusan Mahasiswa”, memberi keterangan jumlah mahasiswa pada sumbu y, mengatur batas maksimal jumlah sampai 10, lalu menampilkan grafik.
 6. Jadi, array pada program ini berfungsi untuk menyimpan kategori dan jumlah data yang akan ditampilkan dalam grafik kelulusan mahasiswa.
 
